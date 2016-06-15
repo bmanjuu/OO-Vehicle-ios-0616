@@ -26,7 +26,7 @@
     if(self){
         
         _sponsors = sponsors;
-        self.weight = 1270;
+        self.weight = 1270; // this is not different from parent class, still need to set?
         self.topSpeed = 615;
         
     }
