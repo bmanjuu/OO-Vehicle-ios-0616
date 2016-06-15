@@ -14,6 +14,6 @@
 @property (strong, nonatomic) NSArray *sponsors;
 
 -(instancetype) init;
--(instancetype) initWithSponsers:(NSArray *)sponsors;
+-(instancetype) initWithSponsors:(NSArray *)sponsors;
 
 @end

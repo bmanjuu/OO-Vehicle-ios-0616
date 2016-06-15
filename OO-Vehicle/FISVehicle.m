@@ -41,6 +41,10 @@
     
     self.currentDirection = self.currentDirection + 90;
     
+    if(self.currentDirection > 270){
+        self.currentDirection = self.currentDirection - 360;
+    }
+    
 }
 
 

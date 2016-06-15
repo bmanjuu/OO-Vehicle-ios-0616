@@ -17,6 +17,8 @@
 
 -(instancetype) init;
 -(instancetype) initWithcylinders:(CGFloat)cylinders isAutomatic:(BOOL)isAutomatic;
--(instancetype) initWithWeight:(CGFloat)weight TopSpeed:(CGFloat)topSpeed currentSpeed:(CGFloat)currentSpeed currentDirection:(CGFloat)currentDirection cylinders:(CGFloat)cylinders isAutomatic:(BOOL)isAutomatic; 
+
+// possible redundant initializer 
+//-(instancetype) initWithWeight:(CGFloat)weight TopSpeed:(CGFloat)topSpeed currentSpeed:(CGFloat)currentSpeed currentDirection:(CGFloat)currentDirection cylinders:(CGFloat)cylinders isAutomatic:(BOOL)isAutomatic; 
 
 @end

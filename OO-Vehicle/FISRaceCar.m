@@ -11,14 +11,25 @@
 @implementation FISRaceCar
 
 -(instancetype) init{
+    
+    self = [self initWithSponsors:@[@"KFC", @"Taco Bell", @"Pizza Hut"]]; 
+    
     return self;
 }
 
 
 
--(instancetype) initWithSponsers:(NSArray *)sponsors{
+-(instancetype) initWithSponsors:(NSArray *)sponsors{
     
-    self = [super init]; 
+    self = [super initWithcylinders:8 isAutomatic:NO];
+    
+    if(self){
+        
+        _sponsors = sponsors;
+        self.weight = 1270;
+        self.topSpeed = 615;
+        
+    }
     
     return self;
 }
